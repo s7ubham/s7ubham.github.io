@@ -1,0 +1,157 @@
+.first{
+    height: 100px;
+    
+}
+p{
+    margin-left: 125px;
+    font-size: 35px;
+    color: #0769e0;
+}
+.first>*{
+    display:inline-block;
+}
+body{
+    margin: 0%;
+    
+}
+input{
+    margin: 0%;
+    
+    
+}
+div{
+    border: none;
+    margin: 0%;
+    
+    vertical-align: top;
+    
+}
+#1b{
+    border-width: 20px;
+    border-color: blue;
+    
+}
+.xx{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.xxx{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.slidingvertical span:nth-child(1) {
+    animation-delay: 0s;
+   -webkit-animation-delay: 0s;
+}
+.slidingvertical span:nth-child(2) {
+    animation-delay: 3s;
+   -webkit-animation-delay: 3s;
+}
+.slidingvertical span:nth-child(3) {
+    animation-delay: 6s;
+   -webkit-animation-delay: 6s;
+}
+.slidingvertical span:nth-child(4) {
+    animation-delay: 9s;
+   -webkit-animation-delay: 9s;
+}
+
+
+.slidingvertical span {
+    
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: topToBottom;
+    
+    color: black;
+    opacity: 0;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+}
+@keyframes topToBottom{
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+        -webkit-transform: translateY(-50px);
+    }
+    15% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+    25% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+    30% {
+        opacity: 0;
+        -webkit-transform: translateY(50px);
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.slidingvertical {
+    display: inline;
+    text-indent: 10px;
+}
+span{
+    font-size: 35px;
+}
+.tests{
+    display: inline-block;
+}
+::placeholder{
+    font-size: 17px;
+}
+.xxx{
+    box-shadow: 0px 0px 5px black;
+}
+.xxx:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 15px  black;
+
+}
+.no:focus{
+    box-shadow: 0px 2px 10px  black;
+}
+.poop{
+	box-shadow: 0px 0px 15px 5px black;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
